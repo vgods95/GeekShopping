@@ -5,6 +5,11 @@
       "ProjectGuid": "e60145b0-f0ec-4187-af0d-ae64fdff3699",
       "DisplayName": "GeekShopping.ProductAPI",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1
