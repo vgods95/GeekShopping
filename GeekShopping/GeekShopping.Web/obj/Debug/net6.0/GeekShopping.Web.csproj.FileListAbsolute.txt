@@ -24,3 +24,5 @@ C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.Web\obj\Debug
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\ref\GeekShopping.Web.dll
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.pdb
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.genruntimeconfig.cache
+C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.Web\obj\Debug\net6.0\GeekShopping.Web.csproj.CopyComplete
