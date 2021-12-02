@@ -363,3 +363,8 @@ C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.IdentityServe
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net6.0\ref\GeekShopping.IdentityServer.dll
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.pdb
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.IdentityServer\obj\Debug\net6.0\GeekShopping.IdentityServer.genruntimeconfig.cache
+C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\libman.json
+C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\Humanizer.dll
+C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
