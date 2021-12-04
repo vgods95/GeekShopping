@@ -2,7 +2,6 @@
 using GeekShopping.ProductAPI.Repository;
 using GeekShopping.ProductAPI.Utils;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GeekShopping.ProductAPI.Controllers
@@ -51,6 +50,7 @@ namespace GeekShopping.ProductAPI.Controllers
 
         [HttpPut]
         [Authorize]
+        [Authorize(Roles = Role.Admin)]
         public async Task<ActionResult<ProductVO>> Update(ProductVO vo)
         {
             if (vo == null)

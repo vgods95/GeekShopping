@@ -368,3 +368,4 @@ C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.IdentityServe
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\Humanizer.dll
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.IdentityServer\bin\Debug\net6.0\keys\is-signing-key-7B9F08E3F0049A0434BD13798F0F3B62.json
