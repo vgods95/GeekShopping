@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddHttpClient<IProductService, ProductService>(op => op.BaseAddress = new Uri("https://localhost:4440"));
 builder.Services.AddControllersWithViews();
 builder.Services.AddAuthentication(options =>
 {
@@ -26,7 +27,7 @@ builder.Services.AddAuthentication(options =>
     options.SaveTokens = true;
 });
 
-builder.Services.AddHttpClient<IProductService, ProductService>(op => op.BaseAddress = new Uri("https://localhost:4440"));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
