@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddHttpClient<IProductService, ProductService>(op => op.BaseAddress = new Uri("https://localhost:4440"));
+builder.Services.AddHttpClient<ICartService, CartService>(op => op.BaseAddress = new Uri("https://localhost:4445"));
 builder.Services.AddControllersWithViews();
 builder.Services.AddAuthentication(options =>
 {
