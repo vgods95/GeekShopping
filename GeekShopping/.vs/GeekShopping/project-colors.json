@@ -25,7 +25,12 @@
       "ProjectGuid": "a2008167-02ca-4dd2-8556-ca67dbd165ec",
       "DisplayName": "GeekShopping.IdentityServer",
       "ColorIndex": 3
+    },
+    "607e61f9-131e-4954-a0e2-1c914583c842": {
+      "ProjectGuid": "607e61f9-131e-4954-a0e2-1c914583c842",
+      "DisplayName": "GeekShopping.CartAPI",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }
