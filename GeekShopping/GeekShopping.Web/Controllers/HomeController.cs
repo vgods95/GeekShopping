@@ -40,16 +40,20 @@ namespace GeekShopping.Web.Controllers
         public async Task<IActionResult> DetailsPost(ProductViewModel model)
         {
             var accessToken = await HttpContext.GetTokenAsync("access_token");
+            var CartHeader = new CartHeaderViewModel()
+            {
+                UserId = User.Claims.Where(x => x.Type == "sub")?.FirstOrDefault()?.Value,
+                CouponCode = String.Empty
+            };
+
             CartViewModel cart = new CartViewModel()
             {
-                CartHeader = new CartHeaderViewModel()
-                {
-                    UserId = User.Claims.Where(x => x.Type == "sub")?.FirstOrDefault()?.Value
-                }
+                CartHeader = CartHeader
             };
 
             CartDetailViewModel cartDetail = new CartDetailViewModel()
             {
+                CartHeader = new CartHeaderViewModel(),
                 Count = model.Count,
                 ProductId = model.Id,
                 Product = await _productService.FindProductById(model.Id, accessToken)
