@@ -30,7 +30,7 @@ namespace GeekShopping.CartAPI.Repository
             {
                 _context.CartDetails.RemoveRange(_context.CartDetails.Where(c => c.CartHeaderId == cartHeaderToRemove.Id));
                 _context.CartHeaders.Remove(cartHeaderToRemove);
-                _context.SaveChangesAsync();
+                await _context.SaveChangesAsync();
                 return true;
             }
 
