@@ -29,6 +29,7 @@ namespace GeekShopping.CartAPI.Controllers
         [HttpPost("add-cart")]
         public async Task<ActionResult<CartVO>> AddCart(CartVO vo)
         {
+            Array.ForEach<CartDetailVO>(vo.CartDetails.ToArray(), x => x.CartHeader = null);
             var cart = await _repository.SaveOrUpdateCart(vo);
 
             if (cart == null)

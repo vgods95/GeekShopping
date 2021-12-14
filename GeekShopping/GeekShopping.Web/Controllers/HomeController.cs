@@ -53,7 +53,7 @@ namespace GeekShopping.Web.Controllers
 
             CartDetailViewModel cartDetail = new CartDetailViewModel()
             {
-                CartHeader = new CartHeaderViewModel(),
+                CartHeader = null,
                 Count = model.Count,
                 ProductId = model.Id,
                 Product = await _productService.FindProductById(model.Id, accessToken)
