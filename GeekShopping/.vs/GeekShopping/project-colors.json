@@ -30,7 +30,12 @@
       "ProjectGuid": "607e61f9-131e-4954-a0e2-1c914583c842",
       "DisplayName": "GeekShopping.CartAPI",
       "ColorIndex": 4
+    },
+    "da1e31ce-9acc-4d25-85e6-8bd4d7a6d9c2": {
+      "ProjectGuid": "da1e31ce-9acc-4d25-85e6-8bd4d7a6d9c2",
+      "DisplayName": "GeekShopping.CouponAPI",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }
