@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Y0GUOq8ZTSvZwdSGZGNCDOmpmysLmm8muGpwSlocXingplcUcOHFNfMuZeaGmQi9uLsfWR0xa/Wqq9f/WHqYtg==",
+  "dgSpecHash": "HrcsVfEEixTkYedMLHOrRe2X9rd19i774ymG2rFWNN6DPIAVj4JtuU+8hOfJWsgd7KpbRKx0bYNKK9MfwEKKJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\vinic\\source\\repos\\GeekShopping\\GeekShopping\\GeekShopping.CartAPI\\GeekShopping.CartAPI.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\mysqlconnector\\2.0.0\\mysqlconnector.2.0.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.0\\pomelo.entityframeworkcore.mysql.6.0.0.nupkg.sha512",
+    "C:\\Users\\vinic\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.2.3\\swashbuckle.aspnetcore.annotations.6.2.3.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
@@ -41,9 +42,11 @@
     "C:\\Users\\vinic\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.0\\system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
+    "C:\\Users\\vinic\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\vinic\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "C:\\Users\\vinic\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\vinic\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

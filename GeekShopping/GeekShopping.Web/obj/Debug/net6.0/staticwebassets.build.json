@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DHVaboMl7FfLrdE14MyEneadEd6ooLby8t1c5YggUUg=",
+  "Hash": "C0SG3+fpKceJO8zxpj9eOs+I2DPUdpOg0Ns9x9w9NiQ=",
   "Source": "GeekShopping.Web",
   "BasePath": "_content/GeekShopping.Web",
   "Mode": "Default",
@@ -129,6 +129,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\geek_shopping.png"
+    },
+    {
+      "Identity": "C:\\Users\\vinic\\source\\repos\\GeekShopping\\GeekShopping\\GeekShopping.Web\\wwwroot\\images\\order.png",
+      "SourceId": "GeekShopping.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\vinic\\source\\repos\\GeekShopping\\GeekShopping\\GeekShopping.Web\\wwwroot\\",
+      "BasePath": "_content/GeekShopping.Web",
+      "RelativePath": "images/order.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\order.png"
     },
     {
       "Identity": "C:\\Users\\vinic\\source\\repos\\GeekShopping\\GeekShopping\\GeekShopping.Web\\wwwroot\\js\\site.js",

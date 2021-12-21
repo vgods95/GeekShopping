@@ -42,3 +42,6 @@ C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.CartAPI\obj\D
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.CartAPI\obj\Debug\net6.0\ref\GeekShopping.CartAPI.dll
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.CartAPI\obj\Debug\net6.0\GeekShopping.CartAPI.pdb
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.CartAPI\obj\Debug\net6.0\GeekShopping.CartAPI.genruntimeconfig.cache
+C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.CartAPI\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.CartAPI\bin\Debug\net6.0\GeekShopping.MessageBus.dll
+C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.CartAPI\bin\Debug\net6.0\GeekShopping.MessageBus.pdb
