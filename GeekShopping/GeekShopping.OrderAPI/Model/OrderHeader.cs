@@ -1,5 +1,4 @@
 ﻿using GeekShopping.OrderAPI.Model.Base;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace GeekShopping.OrderAPI.Model
@@ -49,8 +48,7 @@ namespace GeekShopping.OrderAPI.Model
         [Column("order_total_items")]
         public int OrderTotalItems { get; set; }
 
-        [ValidateNever]
-        public IEnumerable<OrderDetail> OrderDetail { get; set; }
+        public List<OrderDetail> OrderDetail { get; set; }
 
         [Column("payment_status")]
         public bool PaymentStatus { get; set; }

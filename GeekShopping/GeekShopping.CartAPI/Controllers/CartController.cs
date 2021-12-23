@@ -100,7 +100,7 @@ namespace GeekShopping.CartAPI.Controllers
             vo.DateTime = DateTime.Now;
 
             //Task RabbitMQ logic comes here!!!
-            _rabbitMQMessageSender.SendMessage(vo, "checkout_queue");
+            _rabbitMQMessageSender.SendMessage(vo, "checkoutqueue");
 
             return Ok(vo);
         }

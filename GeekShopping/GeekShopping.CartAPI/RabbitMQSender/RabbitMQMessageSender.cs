@@ -31,7 +31,7 @@ namespace GeekShopping.CartAPI.RabbitMQSender
                     Password = _password,
                 };
 
-                _connection = factory.CreateConnection();
+                 _connection = factory.CreateConnection();
 
                 using var channel = _connection.CreateModel();
                 channel.QueueDeclare(queue: queueName, false, false, false, arguments: null);
