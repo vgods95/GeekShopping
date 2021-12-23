@@ -16,6 +16,7 @@ namespace GeekShopping.OrderAPI.MessageConsumer
 
         public RabbitMQMessageConsumer(OrderRepository repository)
         {
+            _repository = repository;
             var factory = new ConnectionFactory
             {
                 HostName = "localhost",
@@ -62,7 +63,8 @@ namespace GeekShopping.OrderAPI.MessageConsumer
                 OrderTime = DateTime.Now,
                 PaymentStatus = false,
                 Phone = vo.Phone,
-                PurchaseDate = vo.DateTime
+                PurchaseDate = vo.DateTime,
+                PurchaseAmount = vo.PurchaseAmount
             };
 
             foreach (var detail in vo.CartDetails)
