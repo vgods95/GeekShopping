@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HrcsVfEEixTkYedMLHOrRe2X9rd19i774ymG2rFWNN6DPIAVj4JtuU+8hOfJWsgd7KpbRKx0bYNKK9MfwEKKJA==",
+  "dgSpecHash": "9OV1ZdCTLey5qee1qpu8CV4QU8BG4rAAm+9ax45WFx9f13NA/l78+QPH9CLmS8yNso97ME2r1D5yA0kW2UY1UQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\vinic\\source\\repos\\GeekShopping\\GeekShopping\\GeekShopping.CartAPI\\GeekShopping.CartAPI.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.10.0\\microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\mysqlconnector\\2.0.0\\mysqlconnector.2.0.0.nupkg.sha512",
+    "C:\\Users\\vinic\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\6.0.0\\pomelo.entityframeworkcore.mysql.6.0.0.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

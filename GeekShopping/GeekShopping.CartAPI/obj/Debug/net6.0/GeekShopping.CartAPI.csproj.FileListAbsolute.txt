@@ -45,3 +45,4 @@ C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.CartAPI\obj\D
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.CartAPI\bin\Debug\net6.0\RabbitMQ.Client.dll
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.CartAPI\bin\Debug\net6.0\GeekShopping.MessageBus.dll
 C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.CartAPI\bin\Debug\net6.0\GeekShopping.MessageBus.pdb
+C:\Users\vinic\source\repos\GeekShopping\GeekShopping\GeekShopping.CartAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
