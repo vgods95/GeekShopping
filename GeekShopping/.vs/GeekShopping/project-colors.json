@@ -45,7 +45,17 @@
       "ProjectGuid": "84acef93-3169-41d0-a889-1ca1e2ef5c96",
       "DisplayName": "GeekShopping.OrderAPI",
       "ColorIndex": 7
+    },
+    "4d5b451e-6ab2-467e-baf7-de6e8e536f44": {
+      "ProjectGuid": "4d5b451e-6ab2-467e-baf7-de6e8e536f44",
+      "DisplayName": "GeekShopping.PaymentProcessor",
+      "ColorIndex": 8
+    },
+    "a0ba271a-f0ec-418c-accb-cab556b87ceb": {
+      "ProjectGuid": "a0ba271a-f0ec-418c-accb-cab556b87ceb",
+      "DisplayName": "GeekShopping.PaymentAPI",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 10
 }

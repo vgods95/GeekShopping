@@ -9,13 +9,13 @@ using System.Text.Json;
 
 namespace GeekShopping.OrderAPI.MessageConsumer
 {
-    public class RabbitMQMessageConsumer : BackgroundService
+    public class RabbitMQCheckoutConsumer : BackgroundService
     {
         private readonly OrderRepository _repository;
         private IConnection _connection;
         private IModel _channel;
         private IRabbitMQMessageSender _messageSender;
-        public RabbitMQMessageConsumer(OrderRepository repository, IRabbitMQMessageSender messageSender)
+        public RabbitMQCheckoutConsumer(OrderRepository repository, IRabbitMQMessageSender messageSender)
         {
             _repository = repository;
             _messageSender = messageSender;
