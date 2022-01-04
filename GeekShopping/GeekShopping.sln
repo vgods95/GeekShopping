@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.OrderAPI", "Ge
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payments", "Payments", "{27453011-EA3C-4B58-94F5-93C91FA686B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.PaymentProcessor", "GeekShopping.PaymentProcessor\GeekShopping.PaymentProcessor.csproj", "{4D5B451E-6AB2-467E-BAF7-DE6E8E536F44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.PaymentProcessor", "GeekShopping.PaymentProcessor\GeekShopping.PaymentProcessor.csproj", "{4D5B451E-6AB2-467E-BAF7-DE6E8E536F44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.PaymentAPI", "GeekShopping.PaymentAPI\GeekShopping.PaymentAPI.csproj", "{A0BA271A-F0EC-418C-ACCB-CAB556B87CEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeekShopping.PaymentAPI", "GeekShopping.PaymentAPI\GeekShopping.PaymentAPI.csproj", "{A0BA271A-F0EC-418C-ACCB-CAB556B87CEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeekShopping.Email", "GeekShopping.Email\GeekShopping.Email.csproj", "{6312DACA-6619-4E67-9A81-79F45842EAED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{A0BA271A-F0EC-418C-ACCB-CAB556B87CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0BA271A-F0EC-418C-ACCB-CAB556B87CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0BA271A-F0EC-418C-ACCB-CAB556B87CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6312DACA-6619-4E67-9A81-79F45842EAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6312DACA-6619-4E67-9A81-79F45842EAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6312DACA-6619-4E67-9A81-79F45842EAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6312DACA-6619-4E67-9A81-79F45842EAED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{84ACEF93-3169-41D0-A889-1CA1E2EF5C96} = {7245D1F2-0196-4373-AF95-7DBBB9CFE863}
 		{4D5B451E-6AB2-467E-BAF7-DE6E8E536F44} = {27453011-EA3C-4B58-94F5-93C91FA686B2}
 		{A0BA271A-F0EC-418C-ACCB-CAB556B87CEB} = {7245D1F2-0196-4373-AF95-7DBBB9CFE863}
+		{6312DACA-6619-4E67-9A81-79F45842EAED} = {7245D1F2-0196-4373-AF95-7DBBB9CFE863}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5EE0C21A-F760-4688-A7FA-0AFCEC9F8BE5}
