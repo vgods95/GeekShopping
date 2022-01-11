@@ -79,7 +79,7 @@ builder.Services.AddSingleton<IRabbitMQMessageSender, RabbitMQMessageSender>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<ICartRepository, CartRepository>();
 builder.Services.AddScoped<ICouponRepository, CouponRepository>();
-builder.Services.AddHttpClient<ICouponRepository, CouponRepository>(s => s.BaseAddress = new Uri("https://localhost:4450"));
+builder.Services.AddHttpClient<ICouponRepository, CouponRepository>(s => s.BaseAddress = new Uri("https://localhost:4480"));
 
 var app = builder.Build();
 
